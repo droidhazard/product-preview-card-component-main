@@ -2,4 +2,4 @@
 Solution to Front End Mentors Challenge : (https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
    
    
-[##Live Preview](https://droidhazard.github.io/product-preview-card-component-main/)
+[# Live Preview](https://droidhazard.github.io/product-preview-card-component-main/)
