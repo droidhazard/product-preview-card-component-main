@@ -48,6 +48,7 @@ The designs were created to the following widths:
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all .3s ease-out;
 }
 
 html,
@@ -82,12 +83,13 @@ body {
   overflow: hidden;
 }
 
-.card .productimage {
+.productimage {
   width: 28rem;
 }
 
 .card .productinfo {
   padding: 3rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -144,8 +146,32 @@ body {
 .btn-add-cart {
   background-color: var(--dark-cyan);
   color: var(--white);
+  transition: background-color .3s ease-in-out;
 }
 
 .btn-add-cart img {
   margin: 0 .8rem;
+}
+
+.btn-add-cart:hover {
+  background-color: #1d3f32;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 95%;
+    flex-direction: column;
+
+  }
+
+  .productimage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .card .productinfo {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
