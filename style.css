@@ -67,3 +67,7 @@ body {
   color: var(--dark-grayish-blue);
   background-color: var(--cream);
 }
+
+.card {
+  background-color: var(--white);
+}
