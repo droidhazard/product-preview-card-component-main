@@ -83,5 +83,69 @@ body {
 }
 
 .card .productimage {
-  width: 30rem;
+  width: 28rem;
+}
+
+.card .productinfo {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.productinfo--category {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.productinfo--title {
+  color: var(--very-dark-blue);
+  font-family: Fraunces;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 1.8rem 0;
+}
+
+.productinfo--description {
+  font-size: 1.3rem;
+  margin: 1.8rem 0;
+}
+
+.productinfo--pricebox {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.productinfo--pricebox .price-current {
+  color: var(--dark-cyan);
+  font-family: Fraunces;
+  font-size: 3rem;
+}
+
+.productinfo--pricebox .price-cut {
+  font-size: 1.3rem;
+  text-decoration: line-through;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 100%;
+  height: 4.5rem;
+  text-decoration: none;
+  margin-top: 1.8rem;
+  border-radius: .8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-add-cart {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+}
+
+.btn-add-cart img {
+  margin: 0 .8rem;
 }
